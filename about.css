@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+/* nav start */
+.navbar .collapse a{
+    font-size:larger;
+    font-weight: bold;
+    color: black;
+}
+a.active, nav a:hover{
+    background: #fa0606;
+    border-radius: 5px;
+    transition: .5s;
+    text-decoration:none;
+    color: rgb(7, 7, 235);
+}
+
+/* nav end */
+.section{
+    width: 100%;
+}
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#e40c0c
+}
+.container .title h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #f18787;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+.content{
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+    
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+
+}
+.content .article h3{
+    color: #976161;
+    font-size: 17px;
+}
+.content .article p{
+    margin-top:20px ;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e41d1d;
+}
+.content .article .button{
+    margin-top: 50px ;
+}
+.content .article .button a{
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #e40c0c;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+
+}
+.content .article .button a:hover{
+    color: #141313;
+    background-color: #fd1515;
+    transition: 1s ease;
+}
+.container .social{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.container .social i{
+    color: #fff;
+    font-size: 22px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
+    background-color: #e41d1d;
+    margin: 0px 5px;
+}
+.container .social i:hover{
+    color: #070707;
+    background-color: rgb(236, 115, 102);
+    transition: 1s ease;
+    transform: rotate(360deg);
+}
+/* /---- our team----/ */
+
+.team-section{
+    width: 100%;
+}
+.team-section .container{
+    width: 80%;
+    margin: auto;
+}
+.team-section .container .row{
+    width: 60%;
+    margin: auto;
+}
+.team-section .container .row .title{
+   text-align: center;
+   margin-top: 50px;
+}
+.team-section .container .row .title h1{
+   font-size: 35px;
+   text-transform: uppercase; 
+   letter-spacing: 1.5px;
+   color: #e40c0c;
+
+}
+.team-section .container .row .title p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    color: #565555;
+}
+
+.team-section .container .team-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.team-section .container .team-card .card{
+    width: 100%;
+    background-color: #c3bcbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+}
+.team-section .container .team-card .card:hover {
+    background-color: #f3f3f3;
+    transition:0.3s;
+} 
+
+.team-section .container .team-card .image-section img{
+    height: 150px;
+    width: 150px;
+    border-radius:30%;
+    border: 6px solid #f20606;
+    margin-left: 40px;
+    
+}
+.team-section .container .team-card .card .content{
+    width: 100%;
+    text-align: center;
+}
+.team-section .container .team-card .card .content h3{
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #ee0d06;;
+
+}
+.team-section .container .team-card .card .content h4{
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color:#484545;
+    
+}
+.team-section .container .team-card .card .content p{
+    font-size: 15px;
+    margin-top: 18px 0px;
+    line-height: 1.5;
+    color:#0472ae;
+    
+}
+/* /--- out team end---/ */
+.section_footer{
+    background-image: url(bloodcell3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.main{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+  
+}
+.footer{
+    padding: 10px  10px ;
+}
+.col{
+    width: 25%;
+    font-size: larger;
+}
+.col h4{
+    font-size:xx-large ;
+    font-weight: bolder;
+    color:#44e5a7;
+    margin-bottom: 25px;
+    position: relative;
+}
+.col h4::before{
+    content:"" ;
+    position: absolute;
+    height: 2px;
+    width: 120px;
+    left: 0;
+    bottom:-8px;
+    background:rgb(247, 243, 243);
+}
+.col ul li:not(last-child) {
+    margin-bottom:15px;
+    list-style-type: none;
+}
+.col ul li a{
+    color: #ededf2;
+    font-size:larger;
+    display:block;
+    text-transform: capitalize;
+    transition: .4s;
+    list-style-type: none;
+}
+.col ul li a:hover{
+    color: rgb(144, 247, 226);
+    transform: translateY(-10px);
+}
+.col .social{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col .social a{
+    height: 40px;
+    width: 40px;
+    background: rgb(90, 218, 90);
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+}
+.col .social a:hover{
+    color: yellow;
+    transform: scale(1.4);
+    background: rgb(87, 73, 242);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .section .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .content{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .image-section img{
+        width: 100%;
+        display: block;
+        height: auto;
+        margin: auto;
+    }
+    .container .title h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .container .article .button{
+        text-align: center;
+    }
+    .container .article .button a{
+        padding: 6px 15px;
+        font-size: 16px;
+    }
+    .container .social i{
+       font-size: 19px;
+       height: 35px;
+       width: 35px;
+       line-height: 35px; 
+    }
+    .team-section .container .team-card{
+       
+        grid-template-columns:1fr;
+    }
+}

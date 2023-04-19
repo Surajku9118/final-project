@@ -1,0 +1,215 @@
+/* navbar */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar .collapse a{
+    font-size:larger;
+    font-weight: bold;
+}
+a.active, nav a:hover{
+    background: #fa0606;
+    border-radius: 5px;
+    transition: .5s;
+    text-decoration:none;
+    color: rgb(7, 7, 235);
+}
+.section1{ 
+    height:100%;
+    width: 100%;
+}
+
+.carousel-item {
+    background-color:bisque;
+}
+.carousel-item .item2{
+    background-color: rgb(199, 178, 178);
+}
+.carousel-item .item3{
+    background-color: rgb(59, 133, 22);
+}
+
+/* registered  */
+.cont{
+    border: 5px solid black;
+    background-color: rgb(147, 35, 9);
+    border-radius: 5px;
+    text-align: center;
+    font-size:xx-large;
+    font-weight:bolder;
+    border-radius: 20px;
+    padding: 10px;
+   
+}    
+.cont p{
+    color: white;
+}
+/* .donor_number{
+    animation: animate 0.5s step(10) forwards infinite ;
+}
+@keyframes animate {
+    100%{
+        transform:translate3d(0 , -10em, 0)
+    }
+    
+} */
+/* card */
+
+/* .row2{
+    padding-left:12rem ;
+    width: 100%;
+} */
+.column1 {
+    float: center;
+    width: 20%;
+    border: 5px solid rgb(179, 5, 5);
+    padding: 2rem;
+    margin: 20px;
+    margin-left:10px ;
+    background-color: rgb(252, 186, 5);
+  }
+  .column1:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    background-color:cornsilk; 
+  }
+.card1{
+    text-align: center; 
+}
+.card1 a{
+    cursor: pointer;
+    color: red;
+    font-weight:bold;
+}
+.card1 .a2:hover{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    transition: .5s;   
+}
+.row2 .column1  .a2{
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* about section */
+
+.learn_1{
+    color: red;
+}
+.learn_2{
+    border: 1px solid red;
+    width: 50%;
+    
+}
+h1{
+    font-size: 35px;
+    color: rgb(221, 13, 13);
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+h3{
+    font-size: 19px;
+    color: rgb(145, 5, 5);
+    text-align: left;
+
+}
+p{
+    font-size: 40px;
+}
+#tab-col table{
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.demo{
+    border: 1px solid rgb(11, 11, 11);
+}
+
+
+
+/* /--- foooter strat---/ */
+.section_footer{
+    background-image: url(bloodcell3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.main{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+  
+}
+.footer{
+    padding: 10px  10px ;
+}
+.col{
+    width: 25%;
+    font-size: larger;
+}
+.col h4{
+    font-size:xx-large ;
+    font-weight: bolder;
+    color:whitesmoke;
+    margin-bottom: 25px;
+    position: relative;
+}
+.col h4::before{
+    content:"" ;
+    position: absolute;
+    height: 2px;
+    width: 120px;
+    left: 0;
+    bottom:-8px;
+    background:rgb(247, 243, 243);
+}
+.col ul li:not(last-child) {
+    margin-bottom:15px;
+    list-style-type: none;
+}
+.col ul li a{
+    color: #ededf2;
+    font-size:larger;
+    display:block;
+    text-transform: capitalize;
+    transition: .4s;
+    list-style-type: none;
+}
+.col ul li a:hover{
+    color: rgb(144, 247, 226);
+    transform: translateY(-10px);
+}
+.col .social{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col .social a{
+    height: 40px;
+    width: 40px;
+    background: rgb(100, 240, 102);
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+}
+.col .social a:hover{
+    color: yellow;
+    transform: scale(1.4);
+    background: rgb(87, 73, 242);
+}
+
+
+
+  
